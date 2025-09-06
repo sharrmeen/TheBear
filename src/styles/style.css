@@ -1,0 +1,86 @@
+:root {
+    /* Core palette */
+    --bear-dark-blue: #1e2a36;   /* deep, moody kitchen shadows */
+    --bear-steel-gray: #4b5a67;  /* stainless steel counters, urban grit */
+    --bear-cool-green: #3e5f52;  /* muted teal/green lighting */
+    --bear-muted-cream: #d8cbb5; /* faded walls, paper menus */
+    --bear-warm-amber: #d98e32;  /* warm light, food highlights */
+    --bear-deep-brown: #3a2a20;  /* coffee, bread crusts, earthy tones */
+  
+    /* Accent colors */
+    --bear-tomato-red: #b5412a;  /* urgency, passion, intensity */
+    --bear-soft-yellow: #f2d66b; /* nostalgic warmth */
+  }
+  
+
+  body {
+    margin: 0;
+    background-color: var(--bear-dark-blue);
+    color: var(--bear-muted-cream);
+    /* font-family: "Helvetica Neue", sans-serif; */
+    font-family: 'Titan One', sans-serif;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+  }
+
+
+header{
+ background: url("../assets/paper.png");
+ background-size: contain;
+ height: 80px;
+ margin: 0;
+ padding: 0;
+
+
+}
+nav{
+  padding: 10px;
+}
+  
+
+/* CSS */
+button {
+  align-self: center;
+  background-color:var(--bear-dark-blue);
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: rgb(177, 177, 100);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: 'Titan One', sans-serif;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
