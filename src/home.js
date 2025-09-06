@@ -1,8 +1,8 @@
 import "./styles/home.css";
 
 function HomePage(){
-    const content=document.querySelector(".content");
-    
+    const content=document.querySelector(".content")
+
 
 }
 
