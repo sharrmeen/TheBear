@@ -2,7 +2,6 @@ import "./styles/style.css";
 import HomePage from "./home.js";
 
 
-
 const header=document.createElement("header");
 const nav=document.createElement("nav");
 const content=document.querySelector(".content")
@@ -16,6 +15,8 @@ nav.appendChild(aboutBtn);
 header.appendChild(nav);
 content.appendChild(header);
 homeBtn.textContent="Home";
+
+HomePage();
 homeBtn.addEventListener("click",()=>{
     clearPage(content,header);
     HomePage();

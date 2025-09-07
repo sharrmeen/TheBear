@@ -18,7 +18,7 @@
     background-color: var(--bear-dark-blue);
     color: var(--bear-muted-cream);
     /* font-family: "Helvetica Neue", sans-serif; */
-    font-family: 'Titan One', sans-serif;
+    font-family: "Notable", sans-serif;
   }
 
   nav{
@@ -73,7 +73,8 @@ button {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  font-family: 'Titan One', sans-serif;
+  font-family: "Notable", sans-serif;
+  /* font-family: "Alfa Slab One", serif; */
 }
 
 button:hover {
