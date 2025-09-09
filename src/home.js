@@ -2,6 +2,7 @@ import "./styles/home.css";
 import homeImg from "./assets/home1.png";
 import home2Img from "./assets/home2.png";
 import home3Img from "./assets/home3.png"
+import home4Img from "./assets/home4.png"
 
 
 function HomePage(){
@@ -54,6 +55,11 @@ function HomePage(){
             }
         })
     })
+
+    const img4=document.createElement("img");
+    img4.src=home4Img;
+    img4.classList.add('img4');
+    para.appendChild(img4);
 
     document.querySelectorAll(".hidden-text").forEach(entry=>observer.observe(entry));
     
