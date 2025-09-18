@@ -19,35 +19,35 @@ function loadMenu(){
       description: "Fresh pasta served with seasonal garnishes.", 
       img: require("./assets/handmade-pasta.jpg") 
     },
-    // { 
-    //   title: "Braised Short Rib", 
-    //   description: "Slow-cooked tenderness with charred greens.", 
-    //   img: require("./assets/braised-short-rib.jpg") 
-    // },
-    // { 
-    //   title: "Signature Plate", 
-    //   description: "A rotating dish inspired by Chicago classics.", 
-    //   img: require("./assets/signature-plate.jpg") 
-    // },
-    // { 
-    //   title: "Seasonal Dessert", 
-    //   description: "Sweet finishes that change with the season.", 
-    //   img: require("./assets/seasonal-dessert.jpg") 
-    // },
-    // { 
-    //   title: "Freshly Baked Bread & Butter", 
-    //   description: "Warm house bread with cultured butter.", 
-    //   img: require("./assets/bread-butter.jpg") 
-    // },
-    // { 
-    //   title: "Market Salad", 
-    //   description: "Crisp seasonal greens with a light dressing.", 
-    //   img: require("./assets/market-salad.jpg") 
-    // },
+    { 
+      title: "Braised Short Rib", 
+      description: "Slow-cooked tenderness with charred greens.", 
+      img: require("./assets/amuse-bouche.jpg") 
+    },
+    { 
+      title: "Signature Plate", 
+      description: "A rotating dish inspired by Chicago classics.", 
+      img: require("./assets/amuse-bouche.jpg")  
+    },
+    { 
+      title: "Seasonal Dessert", 
+      description: "Sweet finishes that change with the season.", 
+      img: require("./assets/amuse-bouche.jpg") 
+    },
+    { 
+      title: "Freshly Baked Bread & Butter", 
+      description: "Warm house bread with cultured butter.", 
+      img: require("./assets/amuse-bouche.jpg") 
+    },
+    { 
+      title: "Market Salad", 
+      description: "Crisp seasonal greens with a light dressing.", 
+      img: require("./assets/amuse-bouche.jpg") 
+    },
     // { 
     //   title: "Rotating Small Plates", 
     //   description: "Small dishes inspired by local farms.", 
-    //   img: require("./assets/small-plates.jpg") 
+    //  img: require("./assets/amuse-bouche.jpg") 
     // }
   ];
   
