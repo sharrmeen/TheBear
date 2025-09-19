@@ -1,6 +1,7 @@
 import "./styles/style.css";
 import HomePage from "./home.js";
 import MenuPage from "./menu.js";
+import AboutPage from "./about.js";
 
 
 const header=document.createElement("header");

@@ -151,4 +151,44 @@ button:focus {
 }
 
 
+/************* About Page ****************/
 
+.outbox{
+  font-family: 'Bad Script', Courier, monospace;
+  font-size: 18px;
+}
+
+.inbox{
+  border: var(--bear-cool-green) 5px dotted;
+  border-radius: 1rem;
+  background-color: #EBC014;
+  color: var(--bear-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 20px;
+  transition: 0.3s ease-in;
+
+}
+
+.inbox:hover
+{
+  background-color: var(--bear-steel-gray);
+  color: var(--bear-muted-cream);
+  transition: 0.3s ease-in;
+}
+.inbox img{
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+.inbox.left{
+  margin-left: auto;
+}
