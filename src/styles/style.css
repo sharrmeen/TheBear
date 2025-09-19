@@ -224,3 +224,9 @@ button:focus {
   object-fit: cover;  
   
 }
+
+
+.container .img4 {
+  width: 100%;  
+  margin-top: auto; 
+}
