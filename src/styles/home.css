@@ -90,7 +90,8 @@ body{
     width: 100%;
     padding: 0px;
     display: block;
-    margin: 0 auto;   
+    margin: 0 auto; 
+     
     max-width: 80%;
     border-radius: 20px;
     animation: slideIn 2.5s ease forwards;
@@ -114,7 +115,7 @@ body{
   }
 
 .text1{
-    text-align: center;
+    text-align: left;
     /* font-size: 30px; */
     font-size: clamp(20px, 2.5vw, 60px);
     padding: 10px;
@@ -122,5 +123,4 @@ body{
 
   }
 
-  
   

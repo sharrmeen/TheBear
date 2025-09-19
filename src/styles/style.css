@@ -68,7 +68,7 @@ button {
   border-width: 2px;
   box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
   box-sizing: border-box;
-  color: rgb(177, 177, 100);
+  color: var(--bear-muted-cream);
   cursor: pointer;
   display: inline-block;
   font-family: Neucha, sans-serif;
@@ -161,7 +161,7 @@ button:focus {
 .inbox{
   border: var(--bear-cool-green) 5px dotted;
   border-radius: 1rem;
-  background-color: #EBC014;
+  background-color: var(--bear-muted-cream);
   min-width: 250px;
   color: var(--bear-dark-blue);
   display: flex;
