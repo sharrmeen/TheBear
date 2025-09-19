@@ -1,7 +1,26 @@
 import about1 from "./assets/about1.png";
 import about2 from "./assets/about2.png";
 import about3 from "./assets/about3.png";
+import vid from "./assets/videobg.mp4";
 function loadAbout(){
+
+    const videoBackground = document.createElement("div");
+    videoBackground.classList.add("video-background");
+
+    const video = document.createElement("video");
+    video.autoplay = true;
+    video.muted = true;
+    video.loop = true;
+    video.playsInline = true;
+
+    
+    const source = document.createElement("source");
+    source.src = vid
+    source.type = "video/mp4";
+
+    video.appendChild(source);
+    videoBackground.appendChild(video);
+
     const content=document.querySelector(".content");
     const aboutContainer=document.createElement('div');
     aboutContainer.className="outbox";
@@ -28,7 +47,7 @@ function loadAbout(){
     img3.src=about3;
     box3.appendChild(img3);
 
-
+    aboutContainer.appendChild(videoBackground);
     aboutContainer.appendChild(box1);
     aboutContainer.appendChild(box2);
     aboutContainer.appendChild(box3);
